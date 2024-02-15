@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop Components</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column1">
+            <div class="card">
+                <div class="description">
+                    <h5>Some title</h5>
+                    <p>Up to <strong>70% discount</strong> on the season end products.</p>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <div class="item">
+                    <i class="fa-solid fa-basketball"></i>
+                    <div class="info">
+                        <h5>Sportswear</h5>
+                        <p>167 items</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-basketball"></i>
+                    <div class="info">
+                        <h5>Accessories</h5>
+                        <p>52 items</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-basketball"></i>
+                    <div class="info">
+                        <h5>Kitchenware</h5>
+                        <p>112 items</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="description">
+                    <h5>Check our sales.</h5>
+                    <p>Up to <strong>70% discount</strong> on the season end products.</p>
+                </div>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+        </div>
+        <div class="column2">
+            <nav>
+                <ul>
+                    <li>Woman</li>
+                    <li>Man</li>
+                    <li>Kids</li>
+                </ul>
+            </nav>
+            <div class="slide-container">
+                <div class="slides">
+                    <div class="card car active">
+                        <img src="https://ladybuqart.pl/1549-thickbox_default/lili-brown-with-beige-straps-unique-natural-leather-handmade-bag-everyday-designer-bag-ladybuq-art.jpg" alt="">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card car">
+                        <img src="https://images.unsplash.com/photo-1479219136056-56bb6495a005?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhdGhlciUyMGJhZ3N8ZW58MHx8MHx8fDA%3D" alt="">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card car">
+                        <img src="https://i.etsystatic.com/20000253/r/il/2ce37c/4810513616/il_570xN.4810513616_gzrz.jpg" alt="">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card car">
+                        <img src="https://mahileather.com/cdn/shop/articles/Harvard_crop_newbadge_ericdent.jpg?v=1559312972" alt="">
+                        <div class="heart">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <span class="next">&#10095;</span>
+                    <span class="prev">&#10094;</span>
+                </div>
+                <div class="dotsContainer">
+                    <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+                    <div class="dot" attr='1' onclick="switchImage(this)"></div>
+                    <div class="dot" attr='2' onclick="switchImage(this)"></div>
+                    <div class="dot" attr='3' onclick="switchImage(this)"></div>
+                </div>    
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-paypal"></i>
+                <div class="descritpion">
+                    <h4>Some title</h4>
+                    <p>Up to <strong>70% discount</strong> on the season end products.</p>
+                </div>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
